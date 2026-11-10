@@ -31,7 +31,10 @@ jobs:
 
       - name: Render presentation
         run: quarto render nc-2026-open-source-chemometrics.qmd --output-dir _site
-
+        
+      - name: Set index page
+        run: cp _site/nc-2026-open-source-chemometrics.html _site/index.html
+        
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
