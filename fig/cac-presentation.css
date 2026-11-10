@@ -1,0 +1,60 @@
+
+.reveal .slide-background.present:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 120px;
+  height: 60px;
+  background-image: url("buchi-logo_green2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.small-text {
+  font-size: 80%;
+}
+.small-text .MathJax {
+  font-size: 60% !important;
+}
+
+.quarto-title-authors {
+  font-size: 28px;
+}
+
+.reveal .quarto-title-block .date {
+  font-size: 0.5em;
+}
+
+#title-slide h1 {
+  font-size: 1em !important;
+}
+
+.retro {
+  font-family: 'Courier New', Courier, monospace;
+  color: #00AA00;
+  text-shadow: 0 0 10px #00AA00;
+}
+
+.small-text {
+  font-size: 80%;
+}
+
+.small-text2 {
+  font-size: 70%;
+}
+
+.small-text3 {
+  font-size: 60%;
+}
+
+
+.large-text {
+  font-size: 150%;
+}
+
+
+.reveal h1,
+.reveal h2 {
+  color: #2A76DD !important;
+}
